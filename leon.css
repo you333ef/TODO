@@ -1,0 +1,124 @@
+
+    /*backgroundColor:       #2A2871    */
+    /* main color:    #FDFDFD    */
+    /*  btn-color:     #EF5E47   */
+
+    .body{
+       background: linear-gradient(135deg,#153677,#4e085f);
+        background-blend-mode: color-dodge;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100%;
+        font-family: sans-serif;
+
+    }
+    .lll{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      
+    }
+    .Titletodo{
+        color:  linear-gradient(135deg,#153677,#4e085f)  ;
+        font-weight: 600;
+        font-size: 19px;
+        
+    }
+    #inptpapa{
+     border: 1px solid black;
+       outline: none;
+       padding: 6px;
+       border-radius:15px;
+       width: 320px;
+       background-color: #ECEDEF;
+       margin-top: 15px  ;
+       margin-left: 10px;
+       position: relative;
+       color: black;
+       cursor: pointer;
+
+
+    }
+    .btnpapa{
+        background: linear-gradient(135deg,#153677,#4e085f);
+     color:aliceblue;
+     border-radius: 15px;
+     margin-right: 30px;
+     padding:5px 15px;
+     outline: none;
+     position: absolute;
+     right: 435px;
+     bottom: 412px;
+     border: 1px solid   linear-gradient(135deg,#153677,#4e085f);
+     cursor: pointer;
+
+    }
+    .btnpapa:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    #inptpapa:focus{
+    
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    #btnpapa:focus{
+    
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+
+    ul li{
+        list-style: none;
+        padding: 3px 3px 10px 30px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+        user-select: none;
+        margin-right: 420px;
+        position: relative;
+        cursor: pointer;
+        color: linear-gradient(135deg,#153677,#4e085f);
+      
+    }
+    ul li::before{
+        content: '';
+        position: absolute;
+        height: 22px;
+        width: 22px;
+        border-radius: 50%;
+        background-image: url(./images/unchecked.png);
+        background-size: cover;
+        background-position: center;
+        top: 1px;
+        left: 2px;
+    }
+    ul li.taskElement{
+        color: #555;
+        text-decoration: line-through;
+
+    }
+
+    
+    ul li.taskElement::before{
+        background-image: url(./images/checked.png);
+
+    }
+ ul li   span{
+        display: flex;
+        position: absolute;
+        top: 0; 
+        right: -340px;
+        font-size: 20px;
+        padding:0 3px;
+        border-radius: 60%;
+        background-color: #edeef0;
+        letter-spacing: 0cap;
+    }
+    ul li   span:hover{
+background:  linear-gradient(135deg,#153677,#4e085f);
+color: #fff;
+
+
+    }
+
+   
